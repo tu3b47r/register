@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>我的jQuery Mobile程式</title>
+    <link href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>   
+    <meta name="viewport" content="width=device-width, initial-scale=1">    	
+  </head>
+  <body>
+    <div data-role="page" id="page1">
+	  <div data-role="content">
+      <script>
+	    var obj = $.mobile.path.parseUrl("http://www.arts.idv.tw/~jean/test.html?number=100");
+        window.document.write("host屬性的值為" + obj.host + "<br>");
+		window.document.write("protocol屬性的值為" + obj.protocol + "<br>");
+        window.document.write("directory屬性的值為" + obj.directory + "<br>");		
+		window.document.write("filename屬性的值為" + obj.filename + "<br>");		
+		window.document.write("search屬性的值為" + obj.search + "<br>");
+      </script>
+	  </div>  
+    </div>
+  </body>
+</html>
