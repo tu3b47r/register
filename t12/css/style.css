@@ -1,0 +1,17 @@
+.box-30{
+    padding-top: 30px; /* 上方內距 */
+    padding-bottom: 30px; /* 下方內距 */
+}
+
+.mt-60{
+    margin-top: 60px; /* 上方外距 */
+}
+
+.header{
+    padding: 50px 0;
+    background-image: url(../images/Banner.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
